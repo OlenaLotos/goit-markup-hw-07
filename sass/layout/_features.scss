@@ -1,9 +1,9 @@
-.features .list {
+.section__features .list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
 }
-.features-title {
+.features-description__title {
   color: var(--primary-text-color);
   margin-top: 0px;
   margin-bottom: 10px;
@@ -13,14 +13,14 @@
   text-transform: uppercase;
 }
 
-.features-text {
+.features-description__text {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.thumb-features {
+.features-description__thumb {
   width: 270px;
   height: 120px;
   background-color: var(--bg-button-color);
@@ -35,20 +35,20 @@
   padding-bottom: 25px;
   padding-left: 100px;
 }
-.icon-features {
+.features-description__icon {
   display: block;
 }
 
-.features-text {
+.features-description {
   display: flex;
 
   /* justify-content: space-between; */
 }
-.features-text > .item {
+.features-description > .features-description__item {
   /* outline: solid teal; */
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.features > .item:not(:last-child) {
+.section__features > .features-description__item:not(:last-child) {
   margin-right: 30px;
 }

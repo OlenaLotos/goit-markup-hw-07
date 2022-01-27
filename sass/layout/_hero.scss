@@ -10,7 +10,7 @@
   /* padding-bottom: 200px;
   padding-top: 200px; */
 }
-.hero-wrap {
+.hero__wrap {
   padding-bottom: 200px;
   padding-top: 200px;
   /* height: 600px;
@@ -20,7 +20,7 @@
 /* .section .hero {
   padding-bottom: 200px;
 } */
-.hero-title {
+.hero__title {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -32,7 +32,7 @@
   margin-bottom: 30px;
   /* padding-top: 200px; */
 }
-.button-hero {
+.hero__button {
   border-radius: 4px;
   min-width: 200px;
   padding: 10px 32px;

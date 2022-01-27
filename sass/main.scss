@@ -11,12 +11,12 @@
 @import './components/section';
 @import './components/modal';
 
-@import './components/hero';
-@import './components/features';
-@import './components/activity';
-@import './components/team';
-@import './components/clients';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/activity';
+@import './layout/team';
+@import './layout/clients';
 
-@import './components/portfolio';
+@import './layout/portfolio';
 
 @import './components/page-footer';
