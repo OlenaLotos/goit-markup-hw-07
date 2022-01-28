@@ -1,7 +1,7 @@
-.footer-general.container {
+.footer__wrap--general.container {
   display: flex;
 }
-.logo-footer {
+.footer-contacts__logo-footer {
   color: var(--white-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -17,7 +17,7 @@
 .address-city {
   font-style: normal;
 }
-.address {
+.address-city__address {
   color: var(--white-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -31,7 +31,7 @@
   }
 }
 
-.contacts-main {
+.address-text__contacts-main {
   color: var(--contacts-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -42,17 +42,20 @@
   &:focus {
     color: var(--accent-color);
   }
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
-.email {
+.contacts-email {
   display: inline-block;
-  margin-bottom: 9px;
-}
-.footer {
-  display: flex;
 }
 
-.footer-backgraund {
+// .footer {
+//   display: flex;
+// }
+
+.footer {
   background-color: var(--backdraund-black);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -71,7 +74,7 @@
   padding: 0;
 }
 
-.footer-social-center {
+.footer-social-box {
   padding-right: 0px;
   padding-left: 0px;
   display: flex;
@@ -85,7 +88,7 @@
   display: flex;
   justify-content: center;
 }
-.footer-social-link {
+.footer-social-list__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -100,20 +103,20 @@
   }
 }
 
-.footer-social-item + .footer-social-item {
+.footer-social-list__item + .footer-social-list__item {
   margin-left: 10px;
 }
-.footer-social-icon {
+.footer-social-list__icon {
   fill: var(--white-text-color);
 }
-.footer-left {
+.footer-contacts {
   flex-shrink: 0;
 }
 
-.footer-right-wrap {
+.subscribe-wrap {
   display: flex;
 }
-.footer-right {
+.footer__subscribe-box {
   display: flex;
   padding-left: 0;
   padding-right: 0;
@@ -154,7 +157,7 @@
   }
 }
 
-.footer-send-icon {
+.btn-footer__icon {
   display: inline-block;
   margin-left: 10px;
   /* position: absolute; */
@@ -162,7 +165,7 @@
   fill: var(--white-text-color);
 }
 
-.mail-footer-input {
+.subscribe-wrap__mail-input {
   color: var(--white-text-color);
   padding-left: 16px;
   padding-top: 15px;
